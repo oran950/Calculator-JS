@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator </title>
     <link href="style.css" rel="stylesheet">
+    <link rel="matrixFrame" href="background.css">
+    <script src="background.js" defer></script>
     <script src="script.js" defer></script>
 </head>
 <body>
-  <div class="Calculator-grid">
-    <div class="output">
+  <div class="Calculator-grid" >
+    <div class="output" >  
+      <canvas></canvas>
         <div class="previous-operate" previous-operate></div>
         <div class="current-operate" current-operate></div>
     </div>
+    
     <button class="span-two" allClear>AC</button>
     <button delete>DELL</button>
     <button opertion>/</button>
@@ -32,7 +36,7 @@
     <button number>.</button>
     <button number>0</button>
     <button class="span-two" equals>=</button>
+    
   </div>
-
 </body>
 </html>
