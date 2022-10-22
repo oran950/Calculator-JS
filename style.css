@@ -9,7 +9,8 @@
 body{
     padding: 0;
     margin: 0;
-    background: linear-gradient(to left,black , black);
+    background-size: cover;
+    background: url(abstract-math-background-glowing-mathematical-formulas-equations-algorithm-complex-concept-d-rendering-151892728.jpg)
 }
 
 
@@ -27,7 +28,7 @@ body{
     cursor: pointer;
     font-size: 2rem;
     border: 2px solid ;
-    background: linear-gradient(to right,white , grey);
+    background: linear-gradient(color blueviolet);
     outline: none;
     background-color: darkslategray
 
@@ -56,9 +57,10 @@ body{
 }
 .output .previous-operate{
     color: blanchedalmond;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     }
 .output .current-operate{
      color: blanchedalmond;
     font-size: 1.5rem;
 }
+
