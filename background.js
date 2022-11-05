@@ -7,7 +7,7 @@ canvas.width =385;
 canvas.height = 100;
 
 // Setting up the letters
-var letters = 'orasdhfjkljk;liuytsghxfcvbnlm;oiytuytzdfgl23456789jhgfdsn';
+var letters = '123u98767534785790348096759340-28579034690584396708932508734986789034815970134968-4375091348579834689013485780s';
 letters = letters.split('');
 
 // Setting up the columns
